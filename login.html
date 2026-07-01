@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log in — CourseTrack</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="auth-shell">
+
+    <div class="auth-visual">
+      <div class="brand">Course<span style="color:var(--amber)">Track</span></div>
+      <div>
+        <p class="quote">"Six modules in. Eighty percent through <span>Python</span>. Still going."</p>
+      </div>
+      <div class="spine">
+        <a class="done">Registration</a>
+        <a class="active">Login</a>
+        <a>Dashboard</a>
+      </div>
+    </div>
+
+    <div class="auth-form-wrap">
+      <form class="auth-form" onsubmit="return false;">
+        <h1>Welcome back</h1>
+        <p class="sub">Log in to continue where you left off.</p>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="••••••••" required>
+          <div class="hint"><a href="#" style="color:var(--teal); text-decoration:none;">Forgot password?</a></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+
+        <div class="divider">or</div>
+
+        <button type="button" class="btn btn-ghost btn-block">Continue as guest</button>
+
+        <p class="auth-alt">New here? <a href="register.html">Create an account</a></p>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create account — CourseTrack</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="auth-shell">
+
+    <div class="auth-visual">
+      <div class="brand">Course<span style="color:var(--amber)">Track</span></div>
+      <div>
+        <p class="quote">"Every course starts the same way — <span>module one</span>."</p>
+      </div>
+      <div class="spine">
+        <a class="active">Registration</a>
+        <a>Login</a>
+        <a>Dashboard</a>
+      </div>
+    </div>
+
+    <div class="auth-form-wrap">
+      <form class="auth-form" onsubmit="return false;">
+        <h1>Create your account</h1>
+        <p class="sub">Start browsing courses and tracking progress in minutes.</p>
+
+        <div class="row-2">
+          <div class="field">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Ananya" required>
+          </div>
+          <div class="field">
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Rao" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="dept">Department</label>
+          <select id="dept" name="dept">
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="At least 8 characters" required>
+          <div class="hint">Stored encrypted — never in plain text.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Create account</button>
+
+        <p class="auth-alt">Already registered? <a href="login.html">Log in</a></p>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>

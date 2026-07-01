@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — CourseTrack</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="shell">
+
+    <aside class="sidenav">
+      <div class="brand">Course<span>Track</span></div>
+      <nav class="spine">
+        <a class="done">Home</a>
+        <a class="done">Courses</a>
+        <a class="active">Dashboard</a>
+        <a>Notifications</a>
+        <a>Profile</a>
+      </nav>
+      <div class="side-foot">Logged in as<br><strong style="color:#fff;">Ananya Rao</strong></div>
+    </aside>
+
+    <main>
+      <div class="dash-head">
+        <div>
+          <div class="eyebrow">Student dashboard</div>
+          <h1 style="font-size:1.8rem;">Welcome back, Ananya</h1>
+        </div>
+        <a href="index.html" class="btn btn-amber">Browse courses</a>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat">
+          <div class="label">Enrolled</div>
+          <div class="value">3</div>
+        </div>
+        <div class="stat">
+          <div class="label">Completed</div>
+          <div class="value amber">1</div>
+        </div>
+        <div class="stat">
+          <div class="label">Ongoing</div>
+          <div class="value teal">2</div>
+        </div>
+        <div class="stat">
+          <div class="label">Avg. progress</div>
+          <div class="value">80%</div>
+        </div>
+      </div>
+
+      <div class="dash-grid">
+
+        <div class="panel">
+          <h3>Course progress</h3>
+
+          <div style="margin-bottom:22px;">
+            <div style="display:flex; justify-content:space-between; font-size:.9rem;">
+              <span>Python for Data Analysis</span><span class="mono">80%</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill amber" style="width:80%;"></div></div>
+          </div>
+
+          <div style="margin-bottom:22px;">
+            <div style="display:flex; justify-content:space-between; font-size:.9rem;">
+              <span>Full Stack Development — React</span><span class="mono">60%</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill" style="width:60%;"></div></div>
+          </div>
+
+          <div style="margin-bottom:10px;">
+            <div style="display:flex; justify-content:space-between; font-size:.9rem;">
+              <span>DBMS Fundamentals</span><span class="mono">100%</span>
+            </div>
+            <div class="progress-track"><div class="progress-fill amber" style="width:100%;"></div></div>
+          </div>
+
+          <h3 style="margin-top:30px;">Full Stack Development — modules</h3>
+          <div class="module-row"><span class="m-dot done"></span><span class="m-name">HTML</span><span class="m-pct">Completed</span></div>
+          <div class="module-row"><span class="m-dot done"></span><span class="m-name">CSS</span><span class="m-pct">Completed</span></div>
+          <div class="module-row"><span class="m-dot active"></span><span class="m-name">JavaScript</span><span class="m-pct">In progress</span></div>
+          <div class="module-row"><span class="m-dot"></span><span class="m-name">React</span><span class="m-pct">Pending</span></div>
+          <div class="module-row"><span class="m-dot"></span><span class="m-name">Node.js</span><span class="m-pct">Pending</span></div>
+          <div class="module-row"><span class="m-dot"></span><span class="m-name">MongoDB</span><span class="m-pct">Pending</span></div>
+        </div>
+
+        <div class="panel">
+          <h3>Notifications</h3>
+          <div class="notice-item">
+            Completion certificate ready for <strong>DBMS Fundamentals</strong>.
+            <span class="time">2 hours ago</span>
+          </div>
+          <div class="notice-item">
+            New course added: <strong>Node.js Essentials</strong>.
+            <span class="time">Yesterday</span>
+          </div>
+          <div class="notice-item">
+            Enrollment confirmed for <strong>Python for Data Analysis</strong>.
+            <span class="time">3 days ago</span>
+          </div>
+          <div class="notice-item">
+            Reminder: finish the <strong>JavaScript</strong> module this week.
+            <span class="time">4 days ago</span>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+</body>
+</html>
